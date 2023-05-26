@@ -47,7 +47,7 @@ namespace Mustafa_Projekt
 
         private void btnGissa_Click(object sender, EventArgs e)
         {
-            antalGissningar++;
+            antalGissningar++; ///
             string gissa = tbxGissa.Text;
             int gissaTal = int.Parse(gissa);
 
