@@ -40,8 +40,8 @@
             this.btnSpelaIgen = new System.Windows.Forms.Button();
             this.btnStartaSpelet = new System.Windows.Forms.Button();
             this.gbxSpeldata = new System.Windows.Forms.GroupBox();
-            this.gbxSpelet = new System.Windows.Forms.GroupBox();
             this.lbxStörstaTalet = new System.Windows.Forms.ListBox();
+            this.gbxSpelet = new System.Windows.Forms.GroupBox();
             this.gbxSpeldata.SuspendLayout();
             this.gbxSpelet.SuspendLayout();
             this.SuspendLayout();
@@ -130,7 +130,7 @@
             // btnSpelaIgen
             // 
             this.btnSpelaIgen.Enabled = false;
-            this.btnSpelaIgen.Location = new System.Drawing.Point(377, 218);
+            this.btnSpelaIgen.Location = new System.Drawing.Point(361, 177);
             this.btnSpelaIgen.Name = "btnSpelaIgen";
             this.btnSpelaIgen.Size = new System.Drawing.Size(108, 23);
             this.btnSpelaIgen.TabIndex = 9;
@@ -140,7 +140,7 @@
             // 
             // btnStartaSpelet
             // 
-            this.btnStartaSpelet.Location = new System.Drawing.Point(377, 165);
+            this.btnStartaSpelet.Location = new System.Drawing.Point(361, 134);
             this.btnStartaSpelet.Name = "btnStartaSpelet";
             this.btnStartaSpelet.Size = new System.Drawing.Size(108, 23);
             this.btnStartaSpelet.TabIndex = 10;
@@ -152,12 +152,21 @@
             // 
             this.gbxSpeldata.Controls.Add(this.lbxStörstaTalet);
             this.gbxSpeldata.Controls.Add(this.lblStörstaTalet);
-            this.gbxSpeldata.Location = new System.Drawing.Point(136, 165);
+            this.gbxSpeldata.Location = new System.Drawing.Point(71, 134);
             this.gbxSpeldata.Name = "gbxSpeldata";
             this.gbxSpeldata.Size = new System.Drawing.Size(205, 66);
             this.gbxSpeldata.TabIndex = 11;
             this.gbxSpeldata.TabStop = false;
             this.gbxSpeldata.Text = "Speldata";
+            // 
+            // lbxStörstaTalet
+            // 
+            this.lbxStörstaTalet.FormattingEnabled = true;
+            this.lbxStörstaTalet.ItemHeight = 15;
+            this.lbxStörstaTalet.Location = new System.Drawing.Point(92, 22);
+            this.lbxStörstaTalet.Name = "lbxStörstaTalet";
+            this.lbxStörstaTalet.Size = new System.Drawing.Size(90, 34);
+            this.lbxStörstaTalet.TabIndex = 13;
             // 
             // gbxSpelet
             // 
@@ -170,28 +179,21 @@
             this.gbxSpelet.Controls.Add(this.btnGissa);
             this.gbxSpelet.Controls.Add(this.lblDator);
             this.gbxSpelet.Enabled = false;
-            this.gbxSpelet.Location = new System.Drawing.Point(136, 247);
+            this.gbxSpelet.Location = new System.Drawing.Point(71, 247);
             this.gbxSpelet.Name = "gbxSpelet";
             this.gbxSpelet.Size = new System.Drawing.Size(456, 142);
             this.gbxSpelet.TabIndex = 12;
             this.gbxSpelet.TabStop = false;
             this.gbxSpelet.Text = "Spelet";
             // 
-            // lbxStörstaTalet
-            // 
-            this.lbxStörstaTalet.FormattingEnabled = true;
-            this.lbxStörstaTalet.ItemHeight = 15;
-            this.lbxStörstaTalet.Location = new System.Drawing.Point(92, 22);
-            this.lbxStörstaTalet.Name = "lbxStörstaTalet";
-            this.lbxStörstaTalet.Size = new System.Drawing.Size(90, 19);
-            this.lbxStörstaTalet.TabIndex = 13;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.BackgroundImage = global::Mustafa_Projekt.Properties.Resources._0_GettyImages_1249152860;
+            this.ClientSize = new System.Drawing.Size(622, 409);
             this.Controls.Add(this.gbxSpelet);
             this.Controls.Add(this.btnSpelaIgen);
             this.Controls.Add(this.gbxSpeldata);
